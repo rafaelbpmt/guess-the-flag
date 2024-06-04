@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+
+body{
+    background-color: #121212;
+    color: #f7f7f7;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+
+h1{
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: 60px;
+}
+
+@media only screen and (max-width: 320px){
+    h1{
+        font-size: 40px;
+        
+    }
+}
+
+
+
+.russia{
+    width: 390px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 320px){
+    .russia{
+        width: 220px;
+        
+    }
+}
+
+@media only screen and (max-width: 375px){
+    .russia{
+        width: 300px;
+        
+    }
+}
+
+
+.main{
+    text-align: center;
+}
+
+#guess__btn{
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    padding-left: px;
+    padding-right: 5px;
+    margin-bottom: 20px;
+    padding: 5px;
+    font-weight: 600;
+    border-radius: 4px;
+    border: 1.3px solid #f7f7f7;
+    background-color: #121212;
+    color: #f7f7f7
+}
+
+@media only screen and (max-width: 375px){
+    #guess__btn{
+        margin-top: 10px;
+        width: 100px;
+        
+    }
+}
+
+
+
+#answer{
+    font-weight: 600;
+}
+
+#guess__flag{
+    padding: 10px;
+    width: 310px;
+    height: 30px;
+    background-color: #121212;
+    color: white;
+    border-radius:  5px;
+    border-color: #f7f7f7;
+    outline: none;
+}
+
+@media only screen and (max-width: 320px){
+    #guess__flag{
+        width: 200px;
+        
+    }
+}
